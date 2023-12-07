@@ -1,0 +1,22 @@
+.contactBox {
+    padding-top: 20px;
+    padding-left: 25%;
+    border: none;
+}
+
+.contactContainer {
+    border: 2px solid #0000001a;
+    padding: 10px;
+    width: 765px;
+    height: 470px;
+    border-radius: 10px;
+}
+
+
+.contactUs {
+    display: grid;
+    place-items: center;
+    font-size: x-large;
+    font-family: sans-serif;
+    padding-bottom: 35px;
+}

@@ -1,0 +1,66 @@
+.NoItems {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cartContainer {
+  width: 50%;
+  margin: auto;
+  border-top: 3px solid #99999942;
+  border-bottom: 3px solid #99999942;
+  display: grid;
+  grid-template-columns: 4fr 1fr 1fr;
+}
+
+.qnty {
+  width: 60px;
+  height: 20px;
+  display: flex;
+  margin: 10px;
+  padding-top: 110px;
+}
+
+.qnty>button {
+  width: 250%;
+  background: #232f3e;
+  border: none;
+  color: #fff;
+  height: 20px;
+  cursor: pointer;
+}
+
+.qnty>button:hover {
+  background-color: #4c9be4;
+}
+
+
+.itemTotal {
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+.subTotal {
+  display: flex;
+  justify-content: space-between;
+}
+
+.checkout {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.checkout>button {
+  background-color: #232f3e;
+  color: white;
+  border: none;
+  padding: 15px 40px;
+  cursor: pointer;
+}
+
+.checkout>button:hover {
+  background-color: #4c9be4
+}

@@ -1,0 +1,24 @@
+.displayContainer {
+  display: flex;
+  align-items: center; 
+  padding: 5px 5px 0px 5px;
+}
+
+
+.displayRightContainer {
+  display: flex;
+  flex-direction: column;  
+  width: 50%; 
+}
+
+.displayImg {
+  object-fit: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.displayImg2 {
+  object-fit: cover;
+  width: 100%;
+  height: 49.7vh;
+}

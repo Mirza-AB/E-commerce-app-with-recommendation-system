@@ -1,0 +1,30 @@
+.CartContainer {
+  display: flex;
+  padding: 10px;
+  height: 100px;  
+}
+
+.cartImg {
+  width: 150px;
+  height: 100px;
+}
+
+.cartData {
+  margin: 0.3vmax 1vmax;
+  flex-direction: column;
+  padding-right: 15px;
+}
+
+.cartData>button { 
+  background: white;
+  border: none;
+  color: black;
+  height: 20px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.cartData>button:hover {
+  color: white;
+  background-color: #232f3e;
+}

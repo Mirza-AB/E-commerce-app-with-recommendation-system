@@ -1,0 +1,25 @@
+/*style for pagination container*/
+ul.pagination {
+    display: flex;
+    align-items: center;
+}
+
+/*style for current page content*/
+.pagecontent {
+    list-style: none;
+    border: 1px solid rgba(0, 0, 0, 0.178);
+    padding: 1vmax 1.5vmax;
+    cursor: pointer;
+}
+
+/*style for other page links*/
+.pageConnect {
+    font: 300 0.7vmax "Roboto";
+    color: rgb(80, 80, 80);
+    transition: all 0.3s;
+}
+
+/*style for the page selected*/
+.currentPage {
+    background-color: #197EF3;
+}

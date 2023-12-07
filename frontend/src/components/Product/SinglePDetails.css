@@ -1,0 +1,81 @@
+/*styling for the product description along with the quantity handler*/
+.itemDetails {
+    display: flex;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.itemInfo {
+    width: 50%;
+    overflow: hidden;
+}
+
+.quantity {
+    display: flex;
+    align-items: center;
+}
+
+.quantityHandle {
+    width: 60px;
+    overflow: hidden;
+    display: flex;
+    margin: 10px;
+}
+
+.quantityHandle>button {
+    width: 100%;
+    background: #232f3e;
+    border: none;
+    color: #fff;
+    height: 20px;
+    cursor: pointer;
+}
+
+.quantityHandle>button:hover {
+    background: #4c9be4;
+}
+
+input[type="number"] {
+    border: none;
+    width: 1000%;
+    text-align: center;
+}
+
+/*styling for the recommendation section*/
+.Recommendations {
+    display: flex;
+    object-fit: contain;
+    overflow: auto;
+    padding: 10px 30px 10px 10px;
+    background-color: wheat;
+    cursor: pointer
+}
+
+/*image effect in the recommendation section*/
+.recImages {
+    width: 300px;
+    height: 300px;
+    padding-right: 40px;
+    cursor: pointer
+}
+
+.recImages:hover {
+    width: 315px;
+    height: 315px;
+}
+
+/*styling of the cart button*/
+.addCartButton {
+    padding: 0px 5px 5px 0px;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    height: 25px;
+    font-size: medium;
+    background: none;
+}
+
+.addCartButton:hover {
+    opacity: 0.7;
+    background-color: #4c9be4;
+}
